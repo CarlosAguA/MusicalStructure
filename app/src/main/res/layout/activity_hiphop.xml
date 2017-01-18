@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_hiphop"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="carlosdeveloper.com.musicalstructure.hiphopActivity">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                style="@style/linearStyle">
+
+                <TextView
+                    android:id="@+id/tv_main_info"
+                    android:text="@string/info_top_10"
+                    style="@style/CategoryStyle"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linearStyle">
+
+                <ImageView
+                    style="@style/HipImStyle"  />
+
+                <TextView
+                    android:id="@+id/tv_hip_pos1"
+                    android:text="@string/hiphop_1"
+                    style="@style/CategoryStyle"
+                    android:layout_height="50dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linearStyle">
+
+                <ImageView
+                    style="@style/HipImStyle"  />
+
+                <TextView
+                    android:id="@+id/tv_hip_pos2"
+                    android:text="@string/hiphop_2"
+                    style="@style/CategoryStyle"
+                    android:layout_height="50dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linearStyle">
+
+                <ImageView
+                    style="@style/HipImStyle"  />
+
+                <TextView
+                    android:id="@+id/tv_hip_pos3"
+                    android:text="@string/hiphop_3"
+                    style="@style/CategoryStyle"
+                    android:layout_height="50dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linearStyle">
+
+                <ImageView
+                    style="@style/HipImStyle"  />
+                <TextView
+                    android:id="@+id/tv_hip_pos4"
+                    android:text="@string/hiphop_4"
+                    style="@style/CategoryStyle"
+                    android:layout_height="50dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linearStyle">
+
+                <ImageView
+                    style="@style/HipImStyle"  />
+
+                <TextView
+                    android:id="@+id/tv_hip_pos5"
+                    android:text="@string/hiphop_5"
+                    style="@style/CategoryStyle"
+                    android:layout_height="50dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linearStyle">
+
+                <ImageView
+                    style="@style/HipImStyle"  />
+
+                <TextView
+                    android:id="@+id/tv_hip_pos6"
+                    android:text="@string/hiphop_6"
+                    style="@style/CategoryStyle"
+                    android:layout_height="50dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linearStyle">
+
+                <ImageView
+                    style="@style/HipImStyle"  />
+
+                <TextView
+                    android:id="@+id/tv_hip_pos7"
+                    android:text="@string/hiphop_7"
+                    style="@style/CategoryStyle"
+                    android:layout_height="50dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linearStyle">
+
+                <ImageView
+                    style="@style/HipImStyle"  />
+
+                <TextView
+                    android:id="@+id/tv_hip_pos8"
+                    android:text="@string/hiphop_8"
+                    style="@style/CategoryStyle"
+                    android:layout_height="50dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linearStyle">
+
+                <ImageView
+                    style="@style/HipImStyle"  />
+                <TextView
+                    android:id="@+id/tv_hip_pos9"
+                    android:text="@string/hiphop_9"
+                    style="@style/CategoryStyle"
+                    android:layout_height="50dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linearStyle">
+
+                <ImageView
+                    style="@style/HipImStyle"  />
+
+                <TextView
+                    android:id="@+id/tv_hip_pos10"
+                    android:text="@string/hiphop_10"
+                    style="@style/CategoryStyle"
+                    android:layout_height="50dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

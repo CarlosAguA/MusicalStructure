@@ -1,0 +1,92 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!-- Style for general categorie´s LinearLayout View  -->
+    <style name="linearStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginBottom">10dp </item>
+    </style>
+
+    <!-- Style for general categorie´s Text View  -->
+    <style name="CategoryStyle">
+         <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">4</item>
+        <!-- <item name="android:layout_marginBottom">15dp</item> -->
+         <item name="android:textColor">@color/primaryText</item>
+         <item name="android:background"> @color/categoryBackgroundColor</item>
+    </style>
+
+  <!-- Styles for Activities different from main -->
+
+    <!-- Style for general latin categorie´s ImageView  -->
+    <style name="LatinImStyle">
+        <item name="android:layout_width">0dp </item>
+        <item name="android:layout_weight"> 1 </item>
+        <item name="android:layout_height"> match_parent </item>
+        <item name="android:adjustViewBounds"> true </item>
+        <item name="android:src">@drawable/latin </item>
+        <item name="android:background">@color/latinCategoryColor</item>
+    </style>
+
+    <!-- Style for general Rock categorie´s ImageView  -->
+    <style name="IndieImStyle">
+        <item name="android:layout_width">0dp </item>
+        <item name="android:layout_weight"> 1 </item>
+        <item name="android:layout_height"> match_parent </item>
+        <item name="android:adjustViewBounds"> true </item>
+        <item name="android:src">@drawable/indies </item>
+        <item name="android:background">@color/indieCategoryColor</item>
+    </style>
+
+    <!-- Style for general POP categorie´s ImageView  -->
+    <style name="PopImStyle">
+        <item name="android:layout_width">0dp </item>
+        <item name="android:layout_weight"> 1 </item>
+        <item name="android:layout_height"> match_parent </item>
+        <item name="android:adjustViewBounds"> true </item>
+        <item name="android:src">@drawable/pop </item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <!-- Style for general Deep House Remixes categorie´s ImageView  -->
+    <style name="DeepImStyle">
+        <item name="android:layout_width">0dp </item>
+        <item name="android:layout_weight"> 1 </item>
+        <item name="android:layout_height"> match_parent </item>
+        <item name="android:adjustViewBounds"> true </item>
+        <item name="android:src">@drawable/house </item>
+        <item name="android:background">@color/deepCategoryColor</item>
+    </style>
+
+    <!-- Style for general Hip Hop and R and B categorie´s ImageView  -->
+    <style name="HipImStyle">
+        <item name="android:layout_width">0dp </item>
+        <item name="android:layout_weight"> 1 </item>
+        <item name="android:layout_height"> match_parent </item>
+        <item name="android:adjustViewBounds"> true </item>
+        <item name="android:src">@drawable/hip </item>
+        <item name="android:background">@color/hipCategoryColor</item>
+    </style>
+
+    <!-- Style for nowPlaying Activity SongDAta TextViews  -->
+    <style name="SongViewStyle">
+    <item name= "android:layout_width">match_parent </item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:gravity">center_horizontal </item>
+    <item name="android:textColor">@color/primaryText </item>
+    <item name="android:fontFamily">sans-serif </item>
+    </style>
+
+ </resources>

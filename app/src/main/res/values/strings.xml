@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Musical Structure</string>
+
+
+    <!-- Categories musical structure appp -->
+    <string name="latin">Top 10 latin</string>
+
+    <string name="rock_indie">Top 10 Indie Rock</string>
+
+    <string name="pop">Top 10 Pop</string>
+
+    <string name="deep_house">Top 10 Deep House</string>
+
+    <string name="hiphop">Top 10 Hip Hop</string>
+
+    <string name="latin_1"> Chantaje - Shakira ft. Maluma </string>
+    <string name="latin_2"> Vente Pa´ca - Ricky Martin ft. Maluma </string>
+    <string name="latin_3"> Otra Vez - Zion y Lennox ft. J Balvin </string>
+    <string name="latin_4"> Sin Contrato - Maluma </string>
+    <string name="latin_5"> Duele el Corazón - Enrique Iglesias   </string>
+    <string name="latin_6"> Gozadera - Gente de zona ft. Marc Anthony </string>
+    <string name="latin_7"> Vacaciones - Wisin </string>
+    <string name="latin_8"> Reggaeton Lento - CNCO </string>
+    <string name="latin_9"> Picky - Joey Montana </string>
+    <string name="latin_10"> Desde Esa Noche - Thalia ft. Maluma </string>
+
+    <string name="indie_1"> Mumford and Songs - Believe </string>
+    <string name="indie_2"> Strange Talk - Young Hearts </string>
+    <string name="indie_3"> Ground Down - The Kooks </string>
+    <string name="indie_4"> Do I wann Know? - Arctic Monkeys </string>
+    <string name="indie_5"> Pumped up kicks - Foster The People   </string>
+    <string name="indie_6"> Blue Jeans - Lana del Rey </string>
+    <string name="indie_7"> Of Monsters and Men - Empire </string>
+    <string name="indie_8"> Disclosure - Magnets Ft. Lorde </string>
+    <string name="indie_9"> Bastille - Pompeii </string>
+    <string name="indie_10"> Years and Years - Take Shelter </string>
+
+    <string name="pop_1"> This is What You Came For - Calvin Harris ft. Rihanna </string>
+    <string name="pop_2"> Cheap Thrills - Sia ft. Sean Paul </string>
+    <string name="pop_3"> The Chainsmokers - Don´t Let Me Down </string>
+    <string name="pop_4"> Me. Myself and I - G Eazy ft. Bebe Rexha </string>
+    <string name="pop_5"> Work from Home - Fifth Harmony ft. Ty Dolla Sign   </string>
+    <string name="pop_6"> Sex - Cheat Codes ft. Kris Kross </string>
+    <string name="pop_7"> I Took A Pill in Ibiza - Mike Posner </string>
+    <string name="pop_8"> Faded - Alan Walker </string>
+    <string name="pop_9"> Sorry - Justin Bieber </string>
+    <string name="pop_10"> Into You - Ariana Grande </string>
+
+    <string name="house_1"> Closer - The Chainsmokers (T Mass Remix) </string>
+    <string name="house_2"> Sorry - Justin Bieber ft. Wide Awake (Deep H. Remix) </string>
+    <string name="house_3"> Hello - Adele (Laibert Remix) </string>
+    <string name="house_4"> Me. Myself and I - G Eazy ft. Bebe Rexha (Jellyfish Remix) </string>
+    <string name="house_5"> Shape of You - Ed Sheeran (Bvd Kult Remix)  </string>
+    <string name="house_6"> Dont´t Let Me Down - The Chainsmokers (Illenium Remix) </string>
+    <string name="house_7"> Cold Water - Major Lazer ft. Justin Bieber (Lulian Florea Remix) </string>
+    <string name="house_8"> Love Yourself - Justin Bieber (Borche Remix) </string>
+    <string name="house_9"> Stressed Out - Twenty One Pilots </string>
+    <string name="house_10"> Riptide - Vance Joy (FlicFlac Remix) </string>
+
+    <string name="hiphop_1"> Black Beatles - Rae Sremmurd </string>
+    <string name="hiphop_2"> Starboy - The Weeknd </string>
+    <string name="hiphop_3"> Migos - Bad and Boujee </string>
+    <string name="hiphop_4"> Side To Side - Ariana Grande ft. Nicky Minaj </string>
+    <string name="hiphop_5"> 24k Magic - Bruno Mars </string>
+    <string name="hiphop_6"> Juju on That Beat- Zay Hilfigerr </string>
+    <string name="hiphop_7"> Bad Things - Machine Guy </string>
+    <string name="hiphop_8"> Amine - Caroline </string>
+    <string name="hiphop_9"> Bounce Back - Big Sean </string>
+    <string name="hiphop_10"> Sucker for Pain - Lil Wayne, Wiz Khalifa</string>
+
+    <!-- Information from each activity -->
+    <string name="info_main">Choose your favorite Top 10 Category for enjoying the best songs.
+            Each category will let you discover the hot hits from our streaming channel.</string>}
+
+     <string name="info_top_10">Tap any song from the list to start playing.</string>
+
+    <string name="info_now_playing"> Depending on the song, the album cover should be uploaded from
+        the Internet assigning an URL and permission for connecting to Internet. </string>
+
+
+
+</resources>

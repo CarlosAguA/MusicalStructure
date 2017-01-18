@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="carlosdeveloper.com.musicalstructure.MainActivity">
+
+    <LinearLayout
+        style="@style/linearStyle">
+
+
+        <TextView
+            android:id="@+id/tv_main_info"
+            android:text="@string/info_main"
+            style="@style/CategoryStyle"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+      style="@style/linearStyle">
+
+        <ImageView
+           style="@style/LatinImStyle" />
+
+        <TextView
+            android:id="@+id/tv_latin"
+            android:text="@string/latin"
+            style="@style/CategoryStyle"
+            android:layout_height="50dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linearStyle">
+
+        <ImageView
+           style="@style/IndieImStyle" />
+
+        <TextView
+            android:id="@+id/tv_rock_indie"
+            android:text="@string/rock_indie"
+            style="@style/CategoryStyle"
+            android:layout_height="50dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linearStyle">
+
+        <ImageView
+            style="@style/PopImStyle" />
+
+        <TextView
+            android:id="@+id/tv_pop"
+            android:text="@string/pop"
+            style="@style/CategoryStyle"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linearStyle">
+
+        <ImageView
+           style="@style/DeepImStyle"/>
+    <TextView
+        android:id="@+id/tv_deep_house"
+        android:text="@string/deep_house"
+        style="@style/CategoryStyle"
+        android:layout_height="50dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linearStyle">
+
+        <ImageView
+           style="@style/HipImStyle" />
+
+        <TextView
+            android:id="@+id/tv_hiphop"
+            android:text="@string/hiphop"
+            style="@style/CategoryStyle"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

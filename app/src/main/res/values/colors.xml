@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#673AB7</color>
+    <color name="colorPrimaryDark">#512DA8</color>
+    <color name="primaryText">#212121</color>
+    <color name="primaryTwo">#757575</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Background color of the app -->
+    <color name="background">#B9F6CA</color>
+    <!-- Categories Background color of the app -->
+    <color name="categoryBackgroundColor">#E0E0E0</color>
+
+    <color name="indieCategoryColor">#69F0AE</color>
+    <color name="latinCategoryColor">#EC407A</color>
+    <color name="hipCategoryColor">#FDD835</color>
+    <color name="deepCategoryColor">#0288D1</color>
+    <color name="extraCategoryColor">#424242</color>
+</resources>
+
+
