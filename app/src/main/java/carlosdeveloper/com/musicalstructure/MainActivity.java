@@ -11,7 +11,7 @@ import butterknife.ButterKnife;
 
 public class MainActivity extends AppCompatActivity {
 
-   TextView latinTopTen, indieTopTen, popTopTen, houseTopTen , hipTopTen ;
+   TextView latinTopTen, indieTopTen, popTopTen, houseTopTen ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
         indieTopTen = (TextView) findViewById(R.id.tv_rock_indie) ;
         popTopTen =  (TextView) findViewById(R.id.tv_pop) ;
         houseTopTen = (TextView) findViewById(R.id.tv_deep_house) ;
-        hipTopTen = (TextView) findViewById(R.id.tv_hiphop) ;
 
 
        latinTopTen.setOnClickListener(new View.OnClickListener() {
@@ -36,7 +35,6 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-
 
 
         indieTopTen.setOnClickListener(new View.OnClickListener() {
@@ -57,18 +55,6 @@ public class MainActivity extends AppCompatActivity {
                 Intent popTopIntent = new Intent(MainActivity.this, popActivity.class);
                 // Start the new activity
                 startActivity(popTopIntent);
-            }
-        });
-
-
-        hipTopTen.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                // Create a new intent to open the {@link hiphopActivity}
-                Intent hiphopTopIntent = new Intent(MainActivity.this, hiphopActivity.class);
-                // Start the new activity
-                startActivity(hiphopTopIntent);
-
             }
         });
 

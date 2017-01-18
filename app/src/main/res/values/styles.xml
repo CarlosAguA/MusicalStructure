@@ -70,16 +70,6 @@
         <item name="android:background">@color/deepCategoryColor</item>
     </style>
 
-    <!-- Style for general Hip Hop and R and B categorie´s ImageView  -->
-    <style name="HipImStyle">
-        <item name="android:layout_width">0dp </item>
-        <item name="android:layout_weight"> 1 </item>
-        <item name="android:layout_height"> match_parent </item>
-        <item name="android:adjustViewBounds"> true </item>
-        <item name="android:src">@drawable/hip </item>
-        <item name="android:background">@color/hipCategoryColor</item>
-    </style>
-
     <!-- Style for nowPlaying Activity SongDAta TextViews  -->
     <style name="SongViewStyle">
     <item name= "android:layout_width">match_parent </item>

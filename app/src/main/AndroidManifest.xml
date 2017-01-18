@@ -8,10 +8,10 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+                  android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -24,16 +24,15 @@
         <activity
             android:name=".indieActivity"
             android:label="@string/rock_indie" />
-        <activity
-            android:name=".hiphopActivity"
-            android:label="@string/hiphop" />
+
         <activity
             android:name=".houseActivity"
             android:label="@string/deep_house" />
 
         <activity
             android:name=".nowPlaying"
-            android:label="Now Playing" />
+            android:label="Now Playing"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

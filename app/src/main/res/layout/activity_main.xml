@@ -76,19 +76,6 @@
 
     </LinearLayout>
 
-    <LinearLayout
-        style="@style/linearStyle">
-
-        <ImageView
-           style="@style/HipImStyle" />
-
-        <TextView
-            android:id="@+id/tv_hiphop"
-            android:text="@string/hiphop"
-            style="@style/CategoryStyle"
-            android:layout_height="50dp" />
-
-    </LinearLayout>
 
 
 
