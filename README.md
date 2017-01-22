@@ -1,5 +1,9 @@
 # MusicalStructure
-This project shows a musical structure app.
+This project shows the structure of a musical app. It plays no songs but it´s the shell. 
+The projects is based on intents, scroll views, textViews, and the MusicPlayer View library from : 
+ https://github.com/iammert/MusicPlayerView
+ 
+ This project is part of the Android Basics Nanodegree by Udacity/Google. 
 
 
 
